@@ -8,7 +8,7 @@ public class Account implements Entity {
 	private Integer id;
 	private Float balance;
 	private String type;
-	private String number;
+	private String number; // sur 13 chiffres
 	private String label;
 	private LocalDate openedOn;
 	private BankCard bankCard;

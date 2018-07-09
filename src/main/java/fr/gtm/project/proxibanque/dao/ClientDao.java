@@ -10,5 +10,7 @@ public interface ClientDao extends JpaRepository<Client, Integer> {
 
 	List<Client> findAllByFirstnameAndLastname(String firstname,
 			String lastname);
+	
+	List<Client> findAllByFirstnameOrLastname(String firstname, String lastname) ;
 
 }

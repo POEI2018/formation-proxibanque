@@ -16,7 +16,7 @@ public class BankCard implements Entity {
 	private static final long serialVersionUID = 1L;
 
 	private Integer id;
-	private String pin;
+	private String pin; // sur 16 chiffres 
 	private String type;
 	private LocalDate expiredOn;
 

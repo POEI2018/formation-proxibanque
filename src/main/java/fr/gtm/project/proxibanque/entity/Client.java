@@ -10,7 +10,7 @@ public class Client implements Entity {
 	private String lastname;
 	private String firstname;
 	private LocalDate birthDate;
-	private String number;
+	private String number;    // sur 8 chiffres
 	private List<Account> accounts;
 	private Address address;
 
